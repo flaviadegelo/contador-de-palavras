@@ -20,7 +20,7 @@ int main() {
 
     scanf("%c",&c);
 
-    if (c == ' ' || c == '.' || c == ',' || c == '?' || c == '!' || c == '-' || c == '\n' || c == ';' || c == ':'){ // A contagem de palavras eh feita pensando-se nas pontuacoes que indicam final de palavras/numeros
+    if (c == ' ' || c == '.' || c == ',' || c == ';' || c == ':' || c == '-' || c == '?' || c == '!' || c == '\n'){ // A contagem de palavras eh feita pensando-se nas pontuacoes que indicam final de palavras/numeros
 
         if((anterior >= 'a' && anterior <= 'z') || (anterior >= 'A' && anterior <= 'Z')) { // Indicacao do final de uma palavra
 
